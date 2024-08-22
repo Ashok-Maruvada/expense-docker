@@ -2,7 +2,7 @@ version: '2.9'
 name: expense
 networks:
   default:
-  name: expense
+    name: expense
 services:
   mysql:
     image: mysql:v1.0
